@@ -1,0 +1,88 @@
+@media (max-width: 480px) {
+  .project p{
+    width: 90%;
+  }
+  .skill p{
+    width: 100%;
+  }
+  .intern-table{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.intern-card{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid;
+    height: 30vh;
+    border-radius: 25px;
+    padding-top: 2%;  
+    background-color: #fff;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000;   
+}
+    .contact{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #skill-box{
+        background: #151515;
+        border-radius: 64px;
+        text-align: center;
+        padding: 60px 15px;
+        margin-top: -60px;
+    }
+    .container{
+        width: 90%;
+    }
+    .newsletter-bx {
+        background: #FFFFFF;
+        border-radius: 55px;
+        color: #121212;
+        padding: 65px 35px;
+        margin-bottom: 80px;
+        margin-top: -122px;
+    }
+    .new-email-bx button {
+        background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+        padding: 16px 20px;
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        border-radius: 18px;
+    }
+    .banner {
+        margin-top: 0;
+        padding: 125px 0 100px 0;
+    }
+    nav.navbar {
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 9999;
+        transition: 0.32s ease-in-out;
+        height: 70px;
+        background-color: #131313;
+    }
+    nav.navbar .navbar-nav .nav-link.navbar-link {
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 0.8px;
+        padding: 0 25px;
+        font-size: 18px;
+        opacity: 0.75;
+        padding-top: 10px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        background: #131313;
+        width: 100%;
+    }
+}
